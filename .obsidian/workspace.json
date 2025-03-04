@@ -11,10 +11,24 @@
             "id": "b4dd4a54acf4cbaf",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "initrd.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "initrd"
             }
           }
         ]
@@ -166,34 +180,34 @@
   },
   "active": "b4dd4a54acf4cbaf",
   "lastOpenFiles": [
-    "Major.md",
+    "initramfs.md",
     "etc/sudoers.md",
+    "Extended Backus-Naur form.md",
     "command sudo.md",
-    "sshd.md",
+    "Shell Command Substitution.md",
+    "Shell Redirection.md",
+    "Linux Sockets.md",
+    "command lsof.md",
+    "TODO.md",
+    "ufw.md",
+    "Firewall.md",
+    "command truncate.md",
+    "Sparse File.md",
+    "dd.md",
+    "command find.md",
     "Pluggable Authentication Modules for Linux.md",
-    "Minor.md",
-    "etc/login.defs.md",
-    "Password Expiry on Linux.md",
     "command chage.md",
+    "Password Expiry on Linux.md",
+    "etc/login.defs.md",
+    "MBR.md",
+    "Install Minimal Debian.md",
+    "Major.md",
+    "sshd.md",
+    "Minor.md",
     "command login.md",
     "Hibernation.md",
-    "MBR.md",
-    "command passwd.md",
     "Untitled",
     "etc",
-    "pwquality.conf.md",
-    "dpkg.md",
-    "Debian.md",
-    "Advanced Package Tool.md",
-    "useradd.md",
-    "udev.md",
-    "TODO.md",
-    "Install Minimal Debian.md",
-    "locale.md",
-    "systemd-timesync.md",
-    "debootstrap.md",
-    "Filesystem.md",
-    "Linux Kernel.md",
     "Untitled.canvas"
   ]
 }

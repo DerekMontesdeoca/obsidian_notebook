@@ -5,3 +5,16 @@ Using sudo instead of becoming root, has many advantages. Elevated privileges ca
 Sudo will change behavior according to the policies configured by the sysadmin. These policies are usually configured in the [[/etc/sudoers]] file.  They will determine what privileges are given to the user when sudo is invoked. According to the documentation, additional plugins can be configured to extend the functionality of sudo. 
 
 Sudo allows caching of the user password and this caching can be refreshed without the need to execute any command by using sudo -v. 
+
+# Limitations
+
+Not every command can be run as sudo, the following limitations apply:
+
+1. Using [[Shell Redirection]].
+2. Using [[Shell Command Substitution]].
+
+This can be bypassed in 2 ways.
+
+1. Using -i to get a login shell that will be instantiated at the beginning of the command.
+2. Invoking the shell and running the command inside it, i.e. `sudo sh -c 'command'`
+

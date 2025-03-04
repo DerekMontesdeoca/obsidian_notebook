@@ -2,7 +2,6 @@
 ### Alignment on partitions
 ### lsblk
 ### blkid
-### lsof
 ### fuser
 ### findmnt
 ### AppArmor aa-status
