@@ -1,0 +1,3 @@
+Debian's approach from the start was to focus on stability. So, if you want a system to work for a long time without requiring lots of maintenance, you should choose Debian. When people refer to Debian, they usually mean Debian stable. If you need new releases of software, you can use Debian Testing. Finally, the very bleeding edge of software is on Debian unstable. These packages don't get security updates from the Debian team, but exclusively from its package maintainers. 
+
+Everything in Debian is built into a package. [[dpkg]] is the low level package management tool for debian. After that, the Apt ([[Advanced Package Tool]]) system manage everything related to packages on Debian.

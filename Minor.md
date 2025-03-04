@@ -1,0 +1,1 @@
+Device ID that represents a more specific category for a type of node. These can be queried by filtering the /dev dir by [[Major]] number. 

@@ -1,0 +1,1 @@
+A very simple and common scheme for specifying the location of blocks of data in storage devices like disks. The scheme just allocates a table enumerating each block as LB0, LB1, LB2... and so on. 

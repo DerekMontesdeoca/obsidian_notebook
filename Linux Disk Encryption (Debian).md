@@ -2,7 +2,7 @@ The method I learned to encrypt disks in Linux was using a crypto device mapper,
 
 # Booting with encrypted disks
 
-The main issue with encrypting the system comes with booting. When you boot, the bootloader won't be able to find the root partition because it is encrypted. In order to decrypt it, the initial ram filesystem ([[initramfs]]) needs to load the required programs in order to decrypt the partitions and mount them. In debian this is done automatically when setting up your [[crypttab]], updating your initramfs and updating you [[bootloader]]. 
+The main issue with encrypting the system comes with booting. When you boot, the bootloader won't be able to find the root partition because it is encrypted. In order to decrypt it, the initial ram filesystem ([[initramfs]]) needs to load the required programs in order to decrypt the partitions and mount them. In debian this is done automatically when setting up your [[crypttab]], updating your initramfs and updating you [[Boot Loader]]. 
 
 The process to be able to boot with encrypted disks is the following:
 

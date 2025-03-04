@@ -1,0 +1,1 @@
+The [[kernel]] for Linux, developped by Linus Torvalds in the 90s. Started as a passion project and became one of the most widely used kernels in the world, mainly due to its open source nature. The kernel itself has a monolothic architecture, although its modules and drivers can be hot-plugged on the go, allowing for great modularity and flexibility. 

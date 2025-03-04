@@ -1,0 +1,1 @@
+An exokernel is a type of small kernel that tries to minimize abstractions, in order to allow programmers to handle resources directly.

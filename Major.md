@@ -1,0 +1,1 @@
+Device ID that represents a broad category for a type of node. These can be queried at a manual and the ones active in the kernel can be queried at /[[proc]]/devices

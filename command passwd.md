@@ -1,0 +1,1 @@
+Changes user password for a Linux account.

@@ -1,0 +1,1 @@
+A real-mode program is a program with direct access to RAM and hardware.

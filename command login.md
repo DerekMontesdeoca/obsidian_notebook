@@ -1,0 +1,1 @@
+Begins a session in the Linyux System. A new login can be done by exitting a user session or by doing exec login, which effectively replaces the current process with a new login session.

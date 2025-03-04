@@ -1,0 +1,1 @@
+Initramfs is the upgrade of [[initrd]]. It works essentially the same way, but it is archived with cpio and optionally compressed. This allows for the kernel to just extract the files without needing drivers for block devices in order to get the early user-space.

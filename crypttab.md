@@ -1,4 +1,4 @@
-crypttab (Crypto Table Mapping) is [[fstab]] for crypt. Practically works in the same way. Located at /etc/crypttab, this file specifies which crypt targets to mount automatically. This is meant to be used for fs's that should be decrypted after root has loaded, however, debian uses this files to configure your initramfs, making the process a lot easier and allowing you to specify on this file all the devices you want decrypted. You still need to update you [[initramfs]] and your [[bootloader]].
+crypttab (Crypto Table Mapping) is [[fstab]] for crypt. Practically works in the same way. Located at /etc/crypttab, this file specifies which crypt targets to mount automatically. This is meant to be used for fs's that should be decrypted after root has loaded, however, debian uses this files to configure your initramfs, making the process a lot easier and allowing you to specify on this file all the devices you want decrypted. You still need to update you [[initramfs]] and your [[Boot Loader]].
 
 The format is the following:
 

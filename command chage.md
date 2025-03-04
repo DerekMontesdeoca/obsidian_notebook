@@ -1,0 +1,1 @@
+The command chage changes the user passsword expiry information. This command is mostly used to change already created users expiry information. If defaults need to be set for when new users are created, take a look into [[login.defs]].

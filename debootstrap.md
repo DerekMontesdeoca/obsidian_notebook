@@ -1,0 +1,1 @@
+Debootstrap is a cli tool that allows the user to install a minimal Debian or Debian based distro into a directory. It is commonly used to create minimal distro testing environments and [[chroot]] systems.

@@ -1,0 +1,7 @@
+A kernel is the program at the core of a computer's operating system. The kernel is responsible for handling system resources and making them available to user-space programs in a controlled and efficient manner. It also handles the drivers required to manage those resources. Another important aspect of the kernel, is that is handles the processes, allocating memory for each, giving them CPU time according to different scheduling mechanisms, handles inter-process communication and isolates each process from the others. Moreover, it is the kernel's duty to handle networking, filesystems, and permissions and access control.
+
+Kernels usually separate its operation from the rest of the programs, due to kernel running in [[Real-mode Program|real mode]], having access to memory and hardware, it is important that user-space has no access to kernel-space. 
+
+The architecture of a kernel can be Monolothic, microkernel, exokernel, hybrid or even nanokernel. The main difference between these, lies in how much of the functionality lies within the kernel or user-space. Monolithic keeps everything in the kernel, grating more control and more performance. On the other hand, microkernels and nanokernels, keep almost nothing with the kernel and make everything available to user-space, adding a lot more modularity, but sacrificing performance due to the large amount of communication required to handle hardware and resources. Finally, the exokernel is explained below.
+
+![[exokernel]]
