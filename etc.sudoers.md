@@ -4,7 +4,13 @@ The `/etc/sudoers` file controls the privileges and access permissions for users
 
 In order to correctly edit the sudoers file you need to invoke visudo, which in turn will use the $EDITOR env variable to determine which program to use to edit the file. The visudo command will create a copy of the file and edit that. When you save the file, visudo checks that the file is correct and saves it as the original.
 
-You can safely edit sudoers on scripts by appending to sudoers.d, by using `tee -a` as EDITOR or doing visudo -c to check syntax. 
+You can safely edit sudoers on scripts by appending to sudoers.d and checking syntax with visudo -c like this:
+
+```bash
+tee << EOF >(visudo -c "/dev/stdin" > /dev/null) | cat > "/etc/sudoers.d/custom"
+Whatever sudo syntax
+EOF
+```
 
 # /etc/sudo.conf
 

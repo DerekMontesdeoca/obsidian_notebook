@@ -1,0 +1,3 @@
+Medium access control address or media access control address is a unique identifier assigned to a network interface controller (NIC). They are represented as six groups of two hex digits, separated by hyphens, colons, or without a separator. MAC addresses are hard-coded into the network interfaces, but some interfaces provide ways to change the MAC address. Additionally, virtual interfaces may get MAC addresses assigned randomly by default.
+
+Since MAC addresses can be effectively spoofed, it is not secure to restrict devices with a firewall by MAC address.

@@ -4,7 +4,7 @@ Users and gruops are used to control access to the system's files, directories, 
 
 Anyone who uses the system may be a user as long as they set a unique name. Some names are reserved for the system, e.g.  root. 
 
-Users can be retrieved from the [[/etc/passwd]] file, they can be queried individually with the [[command id]] and listed with [[command getent]].
+Users can be retrieved from the [[etc.passwd]] file, they can be queried individually with the [[command id]] and listed with [[command getent]].
 # Groups
 
 Groups make it easy to give [[Permissions|permissions]] to multiple users at the same time. 
