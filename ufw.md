@@ -1,4 +1,4 @@
-Uncomplicated firewall (UFW) is a stateful firewall frotend for iptables. It simplifies firewall rule management. ufw comes by default with debian and ubuntu flavors. It is important to know that ufw acts as a service (Daemon).
+Uncomplicated firewall (UFW) is a stateful [[firewall]] frotend for iptables. It simplifies firewall rule management. ufw comes by default with debian and ubuntu flavors. It is important to know that ufw acts as a service (Daemon).
 
 # Enable
 

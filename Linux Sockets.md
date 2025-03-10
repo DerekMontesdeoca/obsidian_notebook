@@ -1,4 +1,4 @@
-A Linux socket is an endpoint for communication between 2 processes. These processes can be on the network or on the same machine.  Sockets on Linux are represented as File Descriptors. Sockets allow for bidirectional communication, unlike pipes that only allow for unidirectional communication. The data is buffered internally by the kernel on a send buffer and a receive buffer. Sockets in Linux follow the read/write model. Sockets contain the address and port. 
+A Linux socket is an endpoint for communication between 2 processes. These processes can be on the network or on the same machine.  Sockets on Linux are represented as File Descriptors. Sockets allow for bidirectional communication, unlike pipes that only allow for unidirectional communication. The data is buffered internally by the [[Linux Kernel]] on a send buffer and a receive buffer. Sockets in Linux follow the read/write model. Sockets contain the address and port. 
 
 # How Sockets Work in Linux
 

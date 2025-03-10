@@ -1,1 +1,0 @@
-DD is a low level command for copying from and into files and block devices. While you can use dd for files, cp is a better choice because it is optimized for filesystem copying, while dd is better suited for low level raw block copying.

@@ -4,6 +4,8 @@ The `/etc/sudoers` file controls the privileges and access permissions for users
 
 In order to correctly edit the sudoers file you need to invoke visudo, which in turn will use the $EDITOR env variable to determine which program to use to edit the file. The visudo command will create a copy of the file and edit that. When you save the file, visudo checks that the file is correct and saves it as the original.
 
+You can safely edit sudoers on scripts by appending to sudoers.d, by using `tee -a` as EDITOR or doing visudo -c to check syntax. 
+
 # /etc/sudo.conf
 
 `/etc/sudo.conf` is the file consulted by sudo in order to determine which pulgins to load. If no sudo.conf is found or if it is empty, the sudoers file will be used.
@@ -79,6 +81,9 @@ Defaults:gruop option=value
 - requiretty: disables sudo via scripts or remote exploits.
 - !root_sudo: disables shell access via sudo (`sudo su` and `sudo -s`).
 - reset_env: completely resets most enviroment variable to a safe state. Only a few are kept `HOME`, `TERM`, etc.
+- passwd_tries
+- authfail_message
+- badpass_message
 
 ## Specs
 
