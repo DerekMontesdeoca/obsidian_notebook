@@ -66,6 +66,8 @@ function error ( message ) {
 }
 ```
 
+system is usefule for side-effects.
+getline is useful to get data from the outside world. getline will execute only once unless you close it. Even when using commands! Do close("my command").
 ## Patterns
 
 Patterns are conditions that when met, execute blocks of code.
