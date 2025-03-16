@@ -1,0 +1,3 @@
+A [[Device Special Files|device special file]] that provides buffered access to a hardware device. These are different from [[Character Special File|character devices]] in that they allow reading and writing blocks of any size, including single bytes and misaligned reads and writes. The catch is that because io is buffered, it is not known when the data will be passed from the kernel's buffers to the actual device and even in which order separate writes will arrive at the physical device. 
+
+If block and character devices are both opened for a device, risk of data corruption is high. For that reason Linux only opens disks as block devices and FreeBSD only opens disks as character devices. In Linux you can emulate a character device on a disk by using the O_DIRECT flag. 
