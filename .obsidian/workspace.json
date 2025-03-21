@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "d2fd3a48f2af80b0",
+        "id": "aa34880d230a04b0",
         "type": "tabs",
         "children": [
           {
-            "id": "b0534b545187b3c5",
+            "id": "cc4496be7a8dbcd6",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "shopt vs set.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "shopt vs set"
             }
           }
         ]
@@ -36,7 +40,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical",
+                "sortOrder": "byModifiedTime",
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
@@ -49,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "ufw",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -109,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Users and Groups in Linux.md",
+                "file": "shopt vs set.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Users and Groups in Linux"
+              "title": "Outgoing links from shopt vs set"
             }
           },
           {
@@ -148,7 +152,7 @@
             }
           },
           {
-            "id": "a4c415f8dfa05ddb",
+            "id": "a9eb95e230100d60",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -158,11 +162,12 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 238.5
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -175,34 +180,34 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b0534b545187b3c5",
+  "active": "cc4496be7a8dbcd6",
   "lastOpenFiles": [
-    "command chage.md",
-    "etc.login.defs.md",
-    "pwquality.conf.md",
-    "Pluggable Authentication Modules for Linux.md",
-    "Hostname.md",
-    "block device.md",
+    "POSIX.md",
+    "shopt vs set.md",
     "command diff.md",
-    "Character Special File.md",
-    "Device Special Files.md",
-    "command blkid.md",
-    "bash parameter expansion.md",
-    "command shasum.md",
-    "Checksum.md",
-    "Longitudinal Parity Check.md",
-    "crypttab.md",
     "command tar.md",
-    "command install.md",
     "Archive Files.md",
+    "mount.md",
+    "command blkid.md",
+    "proc.md",
+    "Major.md",
+    "block device.md",
+    "fail2ban.md",
     "ssh_config.md",
-    "command hostname.md",
+    "command shasum.md",
+    "command install.md",
     "command hostnamectl.md",
-    "command tee.md",
-    "etc.passwd.md",
-    "Install Minimal Debian.md",
-    "initramfs.md",
-    "initrd.md",
+    "command hostname.md",
+    "bash parameter expansion.md",
+    "Longitudinal Parity Check.md",
+    "Checksum.md",
+    "Character Special File.md",
+    "bash conditionals.md",
+    "ufw.md",
+    "bash.md",
+    "awk.md",
+    "proc.stat.md",
+    "etc.sudoers.md",
     "Untitled",
     "etc",
     "Untitled.canvas"

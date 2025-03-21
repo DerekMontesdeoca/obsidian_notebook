@@ -164,4 +164,4 @@ X-mount.mkdir\[=mode]
 	Creates target dir if it doesn't exist.
 
 umask, fmask and dmask 
-	sets a mask for permissions that are not present on FAT only. 
+	sets a mask for permissions that are not present on FS that don't support the linux permission system only. 
