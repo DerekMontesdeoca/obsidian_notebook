@@ -20,8 +20,51 @@
               "icon": "lucide-file",
               "title": "command lsof"
             }
+          },
+          {
+            "id": "29b576be33ab5c0c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Actuator.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Actuator"
+            }
+          },
+          {
+            "id": "950124fcc1a24f68",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Microcontroller.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Microcontroller"
+            }
+          },
+          {
+            "id": "fc16bf9c75022170",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Capacitor.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Capacitor"
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -179,8 +222,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cc4496be7a8dbcd6",
+  "active": "fc16bf9c75022170",
   "lastOpenFiles": [
+    "Microcontroller.md",
+    "Capacitor.md",
+    "Actuator.md",
+    "command lsof.md",
     "shopt vs set.md",
     "POSIX.md",
     "command diff.md",
@@ -203,10 +250,6 @@
     "Character Special File.md",
     "bash conditionals.md",
     "ufw.md",
-    "bash.md",
-    "awk.md",
-    "proc.stat.md",
-    "etc.sudoers.md",
     "Untitled",
     "etc",
     "Untitled.canvas"

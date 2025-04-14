@@ -1,0 +1,1 @@
+A device that converts energy into mechanical motion. Its a kind of physical output device. The energy that comes as input is usually not mechanical. If the input is mechanical it is called transmission or mechanical linkage. 
