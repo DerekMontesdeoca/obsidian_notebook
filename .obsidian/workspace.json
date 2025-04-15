@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Capacitor.md",
+                "file": "command rsync.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Capacitor"
+              "title": "command rsync"
             }
           }
         ],
@@ -224,8 +224,10 @@
   },
   "active": "fc16bf9c75022170",
   "lastOpenFiles": [
-    "Microcontroller.md",
     "Capacitor.md",
+    "command rsync.md",
+    "Untitled.md",
+    "Microcontroller.md",
     "Actuator.md",
     "command lsof.md",
     "shopt vs set.md",
@@ -248,8 +250,6 @@
     "Longitudinal Parity Check.md",
     "Checksum.md",
     "Character Special File.md",
-    "bash conditionals.md",
-    "ufw.md",
     "Untitled",
     "etc",
     "Untitled.canvas"
