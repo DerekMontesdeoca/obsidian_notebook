@@ -1,0 +1,1 @@
+The break marks the end of the heap. Break will be at the beginning of the heap at the beginning of the execution. Using the brk() function, you can move the break, effectively growing the heap. Using sbreak returns the heap to the previous size.
